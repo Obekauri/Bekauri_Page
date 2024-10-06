@@ -35,4 +35,4 @@ router.get('/contact', (req, res) => {
   res.send(`<h2>Contact us at contact@example.com</h2>`);
 });
 
-module.exports = router; // Export the router to use it in server.js
+module.exports = router; // Export the router to use it in server.js and more
