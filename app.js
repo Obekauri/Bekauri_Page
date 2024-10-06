@@ -7,7 +7,7 @@ const express = require('express');
 const router = express.Router(); // Create a router
 console.log('APP JS')
 
-router.get('/', (req, res) => {
+router.get('/about', (req, res) => {
 
   try {
     res.send(`<!DOCTYPE html>
