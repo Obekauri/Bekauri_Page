@@ -6,7 +6,7 @@ import ReactDOMServer from 'react-dom/server';
 const express = require('express');
 const router = express.Router(); // Create a router
 
-router.get('/about', (req, res) => {
+router.get('/', (req, res) => {
 
   try {
     res.send(`<!DOCTYPE html>
@@ -25,7 +25,7 @@ router.get('/about', (req, res) => {
 });
 
 // Define a route that displays content when accessed
-router.get('/', (req, res) => {
+router.get('/About', (req, res) => {
   res.send(`<h2>This is the about page from app.js!</h2>`);
 });
 
