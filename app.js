@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
 });
 
 // Define a route that displays content when accessed
-router.get('/About', (req, res) => {
+router.get('/', (req, res) => {
   res.send(`<h2>This is the about page from app.js!</h2>`);
 });
 
