@@ -5,7 +5,6 @@ import ReactDOMServer from 'react-dom/server';
 
 const express = require('express');
 const router = express.Router(); // Create a router
-console.log('APP JS')
 
 router.get('/about', (req, res) => {
 
