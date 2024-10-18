@@ -8,6 +8,7 @@ export default function Profile() {
             <h2> Here you can see my presonal Information</h2>
 
             <h3>You can see my contents here</h3>
+            <botton>Click here for content</botton>
         </>
         
     );
