@@ -12,7 +12,7 @@ export default function Profile() {
             <p>Here I'm going to insert my BIO</p>
 
             <h3>You can see my contents here</h3>
-            <botton>Click here for content</botton>
+            <botton></botton>
         </>
         
     );
