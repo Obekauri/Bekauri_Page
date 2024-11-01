@@ -3,10 +3,11 @@ import React from 'react'
 export default function Profile() {
     return (
         <>  
-        <div></div>
+            <div>
             <h1>Hello</h1>
             <p>This is my project</p>
             <h2> Here you can see my presonal Information</h2>
+            </div>
 
             <h1>My bio</h1>
 
