@@ -12,9 +12,8 @@ export default function Profile() {
             
             <div>
                 <h1>My bio</h1>
-            </div>
 
-            <p>Here I'm going to insert my BIO</p>
+                <p>Here I'm going to insert my BIO</p>
 
             
             <h3>You can see my contents here</h3>
