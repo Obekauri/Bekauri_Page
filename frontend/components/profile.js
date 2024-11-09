@@ -10,8 +10,9 @@ export default function Profile() {
             </div>
 
             
-            <div></div>
-            <h1>My bio</h1>
+            <div>
+                <h1>My bio</h1>
+            </div>
 
             <p>Here I'm going to insert my BIO</p>
 
