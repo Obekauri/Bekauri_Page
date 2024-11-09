@@ -9,6 +9,8 @@ export default function Profile() {
                 <h2> Here you can see my presonal Information</h2>
             </div>
 
+            
+            <div></div>
             <h1>My bio</h1>
 
             <p>Here I'm going to insert my BIO</p>
