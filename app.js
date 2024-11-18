@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-//import Profile from './frontend/components/profile';
+import Profile from './frontend/components/profile';
 
 
 const express = require('express');
@@ -9,7 +9,7 @@ const router = express.Router(); // Create a router
 router.get('/', (req, res) => {
 
   try {
-;
+    res.send();
   } catch (error) {
       console.error('Error rendering Profile component:', error);
       res.status(500).send('An error occurred while rendering the component.');
