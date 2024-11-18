@@ -6,6 +6,7 @@ import Profile from './frontend/components/profile';
 const express = require('express');
 const router = express.Router(); // Create a router
 
+// Problem is here I can't render Profile index
 router.get('/', (req, res) => {
 
   try {
