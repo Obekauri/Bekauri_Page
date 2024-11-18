@@ -9,7 +9,7 @@ const router = express.Router(); // Create a router
 router.get('/', (req, res) => {
 
   try {
-    res.send();
+    res.send(Profile);
   } catch (error) {
       console.error('Error rendering Profile component:', error);
       res.status(500).send('An error occurred while rendering the component.');
