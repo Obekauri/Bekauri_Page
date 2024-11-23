@@ -18,8 +18,7 @@ export default function Profile() {
 
             <div></div>
             
-            <h3>You can see my contents here</h3>
-            <botton><a href='Need link here'>You can see info here</a></botton>
+
         </>
         
     );
