@@ -11,6 +11,6 @@ server.use('/api/users', usersRouter)
 
 server.use('*', (req, res) => {
     res.status(404).json({
-        
+        message: 'Not found'
     })
 })
