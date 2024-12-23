@@ -10,5 +10,7 @@ server.use(logger)
 server.use('/api/users', usersRouter)
 
 server.use('*', (req, res) => {
-    
+    res.status(404).json({
+        
+    })
 })
