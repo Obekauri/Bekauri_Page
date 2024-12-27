@@ -7,3 +7,7 @@ require('dotenv').config();
 const server = require('./server.js')
 
 const port = precess.env.PORT || 9000;
+
+server.listen(port, () => {
+    
+})
