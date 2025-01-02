@@ -9,3 +9,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
     
 })
+
+router.get('/:id', validateUsersId, (req, res) => {
+
+})
