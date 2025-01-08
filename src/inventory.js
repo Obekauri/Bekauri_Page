@@ -44,5 +44,5 @@ function Inventory(){
 }
 
 function newFunction() {
-
+    let newInput = 0
 }
