@@ -15,5 +15,9 @@ router.get('/:id', validateUsersId, (req, res) => {
 })
 
 router.post('/', (req, res) => {
+
+})
+
+router.put('/:id', validateUsersId, (req, res) => {
     
 })
