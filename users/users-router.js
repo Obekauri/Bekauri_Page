@@ -27,5 +27,7 @@ router.delete('/:id', validateUsersId, (req, res) => {
 })
 
 router.get('/:id/posts', validateUsersId, (req, res) => {
-    
+
 })
+
+module.exports = router;
