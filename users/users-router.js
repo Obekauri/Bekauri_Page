@@ -23,5 +23,9 @@ router.put('/:id', validateUsersId, (req, res) => {
 })
 
 router.delete('/:id', validateUsersId, (req, res) => {
+
+})
+
+router.get('/:id/posts', validateUsersId, (req, res) => {
     
 })
