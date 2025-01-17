@@ -1,1 +1,1 @@
-const User = require('../users/')
+const User = require('../users/users-model')
