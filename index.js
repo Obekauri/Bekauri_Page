@@ -1,13 +1,7 @@
-const server = require('./server.js')
+const server = require('./backend/server')
 
-const PORT = 5000
+const PORT = process.env.PORT || 9000
 
-require('dotenv').config();
-
-const server = require('./server.js')
-
-const port = precess.env.PORT || 9000;
-
-server.listen(port, () => {
-    console.log(`\n*** Server Running on http://localhost/${port} ***n/`)
+server.listen(PORT, () => {
+  console.log(`API listening on http://localhost:${PORT}`)
 })
