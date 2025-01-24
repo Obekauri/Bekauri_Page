@@ -17,7 +17,7 @@ export default function Item(props) {
   // Beware! The JSX is expecting 'item' to exist instantly!
   // we need useParams to grab the dynamic parts of the path (:itemID).
   const { itemID } = useParams()
-  const item = items.find(item => item.id == itemID)
+  const item = items.find(item => item.id === itemID)
 
   // This guards against a crash (the data is not available instantaneously)
   if (!items.length) return 'Getting your item...'

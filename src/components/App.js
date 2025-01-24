@@ -4,7 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 // Components used for the different routes
 import Home from './Home'
 import ItemsList from './ItemsList'
-import Item from './Item'
+import Item from './Items'
 
 // Dummy data
 import data from '../data'
