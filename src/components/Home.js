@@ -18,7 +18,7 @@ export default function Home() {
         alt='store front'
       />
       <button onClick={routeToShop} className='md-button shop-button'>
-        Shop now!
+        Shop
       </button>
     </div>
   )
