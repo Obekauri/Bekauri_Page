@@ -13,13 +13,27 @@ export default function Home() {
 
   return (
     <div className='home-wrapper'>
+      <h1 
+        className='firstIntro'>
+          Hi, I’m Omar Bekauri! 🌟 <br />
+          I build more than just software. <br />
+          I create experiences that connect people, solve problems, and inspire change. <br />
+          With 8 years of experience as a Full Stack and Data Engineer, <br />
+          I merge creativity with technology to craft impactful solutions.
+      </h1>
       <img
         className='home-image'
         src={DesktopImage}
         alt='store front'
       />
+      <h1 
+        className='secondIntro'>
+          From pixels on a screen to backend logic, <br />
+          every line of code I write tells a story of innovation and precision.<br />
+          Ready to bring bold ideas to life? Let’s make it happen! 🚀
+      </h1>
       <button onClick={routeToShop} className='md-button shop-button'>
-        Shop now
+        More
       </button>
     </div>
   )
