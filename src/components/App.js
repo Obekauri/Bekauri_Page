@@ -24,11 +24,12 @@ export default function App(props) {
   return (
     <div className='App'>
       <nav>
-        <h1 className='store-header'>Welcome to Bekauri's Page</h1>
+        <h1 className='store-header'> <i className='Bfont'>Bek</i>auri<i className='Bfont'>.</i></h1>
         <div className='nav-links'>
           {/* 👉 STEP 3 - Make Links to navigate us Home (`/`) and Shop (`items-list`) */}
           <Link to='/'>Home</Link>
-          <Link to='items-list'>Shop</Link>
+          <Link to='items-list'>About</Link>
+          <Link to='contact'>Contact</Link>
         </div>
       </nav>
 

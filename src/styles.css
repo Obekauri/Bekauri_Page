@@ -1,6 +1,7 @@
 html,
 body,
 #root {
+  background-color: #1b1919;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -25,18 +26,18 @@ nav {
 
 .nav-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #1c5d76;
+  color: #b9c1c2;
   font-weight: bold;
-  margin-right: 8px;
+  margin-right: 70px;
 }
 
 .nav-links a:last-of-type {
-  margin-right: 0;
+  margin-right: 500px;
 }
 
 .nav-links a.active {
@@ -44,7 +45,12 @@ nav {
 }
 
 .store-header {
-  color: #1c5d76;
+  color: #9794a8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.Bfont {
+  color: #f71212;
 }
 
 .home-wrapper {
