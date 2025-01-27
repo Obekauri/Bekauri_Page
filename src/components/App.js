@@ -23,15 +23,14 @@ export default function App(props) {
 
   return (
     <div className='App'>
-      <nav>
-        <h1 className='store-header'> <i className='Bfont'>Bek</i>auri<i className='Bfont'>.</i></h1>
-        <div className='nav-links'>
+      <h1 className='store-header'> <i className='Bfont'>Bek</i>auri<i className='Bfont'>.</i></h1>
           {/* 👉 STEP 3 - Make Links to navigate us Home (`/`) and Shop (`items-list`) */}
-          <Link to='/'>Home</Link>
-          <Link to='items-list'>About</Link>
-          <Link to='contact'>Contact</Link>
-        </div>
+      <nav>
+          <Link className='nav-Link' to='/'>Home</Link>
+          <Link className='nav-Link' to='items-list'>About</Link>
+          <Link className='nav-Link' to='contact'>Contact</Link>
       </nav>
+    
 
       {/* 👉 STEP 4 - Build Routes, and a Route for each of the components imported at the top */}
       {/* Note that the components will need some props in order to work */}

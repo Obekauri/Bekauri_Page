@@ -34,12 +34,6 @@ export default function Item(props) {
         </div>
       </div>
 
-      <nav className='item-sub-nav'>
-        {/* 👉 STEP 8 - Here go the NavLinks to `<current url>/shipping` and `<current url>/description` */}
-        <NavLink to="description">Description</NavLink>
-        <NavLink to="shipping">Shipping</NavLink>
-      </nav>
-
       {/* 👉 STEP 9 - Here go the Routes for `<current path>/shipping` and `<current path>/description` */}
       {/* These Routes should render <ItemDetails />  */}
       <Routes>

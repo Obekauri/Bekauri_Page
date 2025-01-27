@@ -1,6 +1,8 @@
 // We'll need React Router's hook to navigate around
 import { useNavigate } from 'react-router-dom'
 import DesktopImage from '../data/images/0_l1Wxf8h2AkXqYiEf.jpg'
+import NYC1 from '../data/images/IMG_0719.jpg'
+import NYC2 from '../data/images/IMG_0723.jpg'
 
 export default function Home() {
   const navigate = useNavigate()
@@ -13,6 +15,11 @@ export default function Home() {
 
   return (
     <div className='home-wrapper'>
+      <img
+        className='NYC2-image'
+        src={NYC2}
+        alt='store front'
+      />
       <h1 
         className='firstIntro'>
           Hi, I’m Omar Bekauri! 🌟 <br />
@@ -32,6 +39,11 @@ export default function Home() {
           every line of code I write tells a story of innovation and precision.<br />
           Ready to bring bold ideas to life? Let’s make it happen! 🚀
       </h1>
+      <img
+        className='NYC1-image'
+        src={NYC1}
+        alt='store front'
+      />
       <button onClick={routeToShop} className='md-button shop-button'>
         More
       </button>
