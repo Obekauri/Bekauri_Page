@@ -15,6 +15,7 @@ export default function Home() {
 
   return (
     <div className='home-wrapper'>
+      <section className='home'>
       <img
         className='NYC2-image'
         src={NYC2}
@@ -22,12 +23,16 @@ export default function Home() {
       />
       <h1 
         className='firstIntro'>
-          Hi, I’m Omar Bekauri! 🌟 <br />
-          I build more than just software. <br />
-          I create experiences that connect people, solve problems, and inspire change. <br />
-          With 8 years of experience as a Full Stack and Data Engineer, <br />
-          I merge creativity with technology to craft impactful solutions.
+          <span>Hi, I’m Omar <h1 className='store-header'> <i className='Bfont'>Bek</i>auri! 🌟</h1></span> <br />
+          <span>
+            I build more than just software. <br />
+            I create experiences that connect people, solve problems, and inspire change. <br />
+            With 8 years of experience as a Full Stack and Data Engineer, <br />
+            I merge creativity with technology to craft impactful solutions.
+          </span>
       </h1>
+      </section>
+
       <img
         className='home-image'
         src={DesktopImage}
