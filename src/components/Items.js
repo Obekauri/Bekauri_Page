@@ -3,7 +3,6 @@ import React from 'react'
 import {
   Routes,
   Route,
-  NavLink,
   useParams,
 } from 'react-router-dom'
 import ItemDetails from './ItemDetails'

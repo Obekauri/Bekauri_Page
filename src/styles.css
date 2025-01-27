@@ -56,7 +56,7 @@ nav{
   color: #f71212;
 }
 
-nav Link {
+.nav-Link {
   font-size: 1.8rem;
   color: white;
   margin-left: 4rem;
@@ -65,8 +65,8 @@ nav Link {
   border-bottom: 3px solid transparent;
 }
 
-nav Link:hover,
-nav Link.active{
+.nav-Link:hover,
+.nav-Link.active{
   color: #b74b4b;
   border-bottom: 3px solid #b74b4b;
 }
@@ -81,9 +81,10 @@ nav Link.active{
 }
 
 @media(max-width:995px){
-  nav{
+
+  .navigate {
     position: absolute;
-    top: 100%;
+    top: 0;
     right: 0;
     width: 40%;
     border-left: 3px solid #b74b4b;
@@ -91,23 +92,25 @@ nav Link.active{
     padding: 1rem solid;
     background-color: #161616;
     border-top: 0.1rem solid rgba(0,0,0,0.1);
-
-  }
-
-  nav.active{
-    display: block;
-  }
-
-  .nav-Link {
-    display: block;
+    display: grid;
     font-size: 2rem;
     margin: 3rem 0;
+    
   }
 
-  .nav-Link:hover,
-  .nav-Link.active{
+  .navigate.active{
+    display: block;
+  }
+
+  .navigate:hover,
+  .nnavigate.active{
     padding: 1rem;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid;
+    border-bottom: 0.5rem solid #b74b4b;
+  }
+
+  section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
   }
 }
