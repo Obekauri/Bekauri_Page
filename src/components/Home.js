@@ -23,14 +23,20 @@ export default function Home() {
       />
       <h1 
         className='firstIntro'>
-          <span>Hi, I’m Omar <h1 className='store-header'> <i className='Bfont'>Bek</i>auri! 🌟</h1></span> <br />
-          <span>
-            I build more than just software. <br />
-            I create experiences that connect people, solve problems, and inspire change. <br />
-            With 8 years of experience as a Full Stack and Data Engineer, <br />
-            I merge creativity with technology to craft impactful solutions.
-          </span>
+          <span>Hi, It's Omar <h1 className='store-header'> <i className='Bfont'>Bek</i>auri! </h1></span> <br />
+          <h2>I build more than just software. <br />
+          I create experiences that connect people, solve problems, and inspire change. <br />
+          With <i className='Bfont'>8 years of experience</i> as a Full Stack and Data Engineer, <br />
+          I merge creativity with technology to craft impactful solutions.</h2>
+          <div className='social-icons'>
+            <a href='https://www.linkedin.com/in/omar-bekauri/' target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-linkedin'></i></a>
+            <a href='https://github.com/Obekauri' target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-github'></i></a>
+          </div>
       </h1>
+      <button onClick={routeToShop} className='md-button shop-button'>
+        Contact me
+      </button>
+
       </section>
 
       <img
@@ -40,18 +46,13 @@ export default function Home() {
       />
       <h1 
         className='secondIntro'>
-          From pixels on a screen to backend logic, <br />
-          every line of code I write tells a story of innovation and precision.<br />
-          Ready to bring bold ideas to life? Let’s make it happen! 🚀
+          Some Text here
       </h1>
       <img
         className='NYC1-image'
         src={NYC1}
         alt='store front'
       />
-      <button onClick={routeToShop} className='md-button shop-button'>
-        More
-      </button>
     </div>
   )
 }
