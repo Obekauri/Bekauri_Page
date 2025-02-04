@@ -45,7 +45,7 @@ nav{
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New ', Times, serif;
 
 }
 
