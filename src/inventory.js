@@ -9,6 +9,8 @@ function Home{
             console.log()
         }
 
-        if(newVariable != "")
+        if(newVariable != ""){
+            
+        }
     }
 }
