@@ -9,6 +9,6 @@ function Home{
             console.log()
         }
 
-        if()
+        if(newVariable != "")
     }
 }
