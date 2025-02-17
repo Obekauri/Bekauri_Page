@@ -4,7 +4,7 @@ function Home{
 
     for(let i = 0; i < 10; i++){
         if(projectData != 0){
-            
+            console.log("something")
         }
     }
 }
