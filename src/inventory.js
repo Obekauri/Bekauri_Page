@@ -6,11 +6,11 @@ function Home{
         if(projectData != 0){
             console.log("something")
         }else{
-            console.log()
+            console.log("Not Good")
         }
 
         if(newVariable != ""){
-            
+
         }
     }
 }
