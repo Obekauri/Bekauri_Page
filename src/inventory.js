@@ -12,7 +12,7 @@ function Home{
         if(newVariable != ""){
             console.log("Something New")
         }else{
-            console.log()
+            console.log('Not Good')
         }
     }
 }
