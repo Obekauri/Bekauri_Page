@@ -10,7 +10,7 @@ function Home{
         }
 
         if(newVariable != ""){
-
+            console.log()
         }
     }
 }
