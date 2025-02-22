@@ -11,6 +11,6 @@ function Home{
 
         if(newVariable != ""){
             console.log("Something New")
-        }
+        }else{}
     }
 }
