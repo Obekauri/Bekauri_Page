@@ -20,4 +20,5 @@ function Home{
 function Inventory{
     const projectManagment = 0
     const newVariable = 1
+    let newInput = ""
 }
