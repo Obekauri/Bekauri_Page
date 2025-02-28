@@ -18,5 +18,6 @@ function Home{
 }
 
 function Inventory{
-    const projectManagment
+    const projectManagment = 0
+    const
 }
