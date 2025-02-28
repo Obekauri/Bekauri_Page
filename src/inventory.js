@@ -19,5 +19,5 @@ function Home{
 
 function Inventory{
     const projectManagment = 0
-    const
+    const newVariable
 }
