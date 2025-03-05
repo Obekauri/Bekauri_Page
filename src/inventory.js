@@ -22,5 +22,5 @@ function Inventory{
     const newVariable = 1
     let newInput = ""
 
-    for()
+    for(i = 0;)
 }
