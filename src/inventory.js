@@ -23,6 +23,6 @@ function Inventory{
     let newInput = ""
 
     for(i = 0; i < newVariable; i++){
-        
+        if()
     }
 }
