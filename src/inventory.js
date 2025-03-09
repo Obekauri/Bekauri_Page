@@ -25,6 +25,8 @@ function Inventory{
     for(i = 0; i < newVariable; i++){
         if(projectManagment = 0){
             console.log("Do Something")
+        }else if(newVariable > 1){
+            
         }
     }
 }
