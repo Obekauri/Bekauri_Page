@@ -23,12 +23,12 @@ function Inventory{
     let newInput = ""
 
     for(i = 0; i < newVariable; i++){
-        if(projectManagment = 0){
+        if(projectManagment === 0){
             console.log("Do Something")
         }else if(newVariable > 1){
 
         }else if(newInput === ""){
-            
+
         }
     }
 }
