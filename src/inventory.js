@@ -26,6 +26,8 @@ function Inventory{
         if(projectManagment = 0){
             console.log("Do Something")
         }else if(newVariable > 1){
+
+        }else if(newInput === ""){
             
         }
     }
