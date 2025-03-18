@@ -31,7 +31,7 @@ function Inventory{
             console.log("Need some debugging")
         }
         for(let j = 0; j < projectManagment){
-            
+            if()
         }
     }
 }
