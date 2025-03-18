@@ -28,7 +28,7 @@ function Inventory{
         }else if(newVariable > 1){
             console.log("Empty Input")
         }else if(newInput === ""){
-            console.log()
+            console.log("Need some debugging")
         }
     }
 }
