@@ -30,6 +30,6 @@ function Inventory{
         }else if(newInput === ""){
             console.log("Need some debugging")
         }
-        for()
+        for(let j = 0;)
     }
 }
