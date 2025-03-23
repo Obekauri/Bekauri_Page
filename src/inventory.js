@@ -32,7 +32,7 @@ function Inventory{
         }
         for(let j = 0; j < projectManagment){
             if(projectManagment < 100){
-                
+                console.log()
             }
         }
     }
