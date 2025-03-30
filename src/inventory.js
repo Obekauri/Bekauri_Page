@@ -37,7 +37,7 @@ function Inventory{
                 projectManagment++
                 newVariable++
             }else if(newInput === 'empty'){
-                
+                console.log(newInput)
             }
         }
     }
