@@ -36,7 +36,9 @@ function Inventory{
             }else if(projectManagment > 100){
                 projectManagment++
                 newVariable++
-            }else if()
+            }else if(newInput === 'empty'){
+                
+            }
         }
     }
 }
