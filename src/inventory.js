@@ -35,6 +35,7 @@ function Inventory{
                 console.log("SOmething great")
             }else if(projectManagment > 100){
                 projectManagment++
+                newVariable++
             }
         }
     }
