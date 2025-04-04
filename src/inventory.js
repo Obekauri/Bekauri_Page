@@ -40,7 +40,7 @@ function Inventory{
                 console.log(newInput)
             }else if(projectManagment > 200){
                 console.log("increased more then 200")
-            }
+            }else if()
         }
     }
 }
