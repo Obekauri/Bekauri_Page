@@ -38,7 +38,9 @@ function Inventory{
                 newVariable++
             }else if(newInput === 'empty'){
                 console.log(newInput)
-            }else if()
+            }else if(projectManagment > 200){
+                
+            }
         }
     }
 }
