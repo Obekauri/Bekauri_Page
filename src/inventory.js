@@ -30,7 +30,7 @@ function Inventory(){
         }else if(newInput === ""){
             console.log("Need some debugging")
         }
-        for(let j = 0; j < projectManagment;){
+        for(let j = 0; j < projectManagment; j++){
             if(projectManagment < 100){
                 console.log("SOmething great")
             }else if(projectManagment > 100){
