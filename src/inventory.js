@@ -3,7 +3,7 @@ function Home(){
     let newVariable = ""
 
     for(let i = 0; i < 10; i++){
-        if(projectData ! 0){
+        if(projectData != 0){
             console.log("something")
         }else{
             console.log("Not Good")
