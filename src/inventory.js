@@ -22,7 +22,7 @@ function Inventory(){
     const newVariable = 1
     let newInput = ""
 
-    for(i = 0; i < newVariable; i++){
+    for(let i = 0; i < newVariable; i++){
         if(projectManagment === 0){
             console.log("Do Something")
         }else if(newVariable > 1){
