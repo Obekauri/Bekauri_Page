@@ -9,7 +9,7 @@ function Home(){
             console.log("Not Good")
         }
 
-        if(newVariable != ""){
+        if(newVariable !== ""){
             console.log("Something New")
         }else{
             console.log('Not Good')
