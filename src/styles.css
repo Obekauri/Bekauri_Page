@@ -49,6 +49,10 @@ nav{
 
 }
 
+.home-image{
+  size-adjust: 20px;
+}
+
 .store-header:hover{
   transform: scale(1.1);
 }
