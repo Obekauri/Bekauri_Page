@@ -1,7 +1,6 @@
-// We'll need React Router's hook to navigate around
+// React Router's hook to navigate around
 import { useNavigate } from 'react-router-dom'
 import DesktopImage from '../data/images/0_l1Wxf8h2AkXqYiEf.jpg'
-import NYC1 from '../data/images/IMG_0719.jpg'
 import NYC2 from '../data/images/IMG_0723.jpg'
 
 export default function Home() {
@@ -29,9 +28,6 @@ export default function Home() {
             <a href='https://github.com/Obekauri' target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-github'></i></a>
           </div>
       </h1>
-      <button onClick={routeToShop} className='md-button shop-button'>
-        Contact me
-      </button>
 
       </section>
 
@@ -44,11 +40,6 @@ export default function Home() {
         className='secondIntro'>
           Some Text here
       </h1>
-      <img
-        className='NYC1-image'
-        src={NYC1}
-        alt='store front'
-      />
     </div>
   )
 }

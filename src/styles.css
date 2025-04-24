@@ -49,10 +49,6 @@ nav{
 
 }
 
-.home-image{
-  size-adjust: 20px;
-}
-
 .store-header:hover{
   transform: scale(1.1);
 }
@@ -77,12 +73,9 @@ nav{
 }
 
 .NYC2-image {
-  border-radius: 50%;
-  position: relative;
-  width: 32vW;
-  box-shadow: 0 0 25px sc;
-  cursor: pointer;
-  transition: 0.2s linear;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .NYC2-image:hover {
@@ -152,6 +145,8 @@ section{
   font-size: 3rem;
 }
 
-.home img{
-
+.home-image{
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
