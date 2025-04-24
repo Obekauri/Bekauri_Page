@@ -32,11 +32,6 @@ export default function App(props) {
         </div>
       </nav>
     
-
-      {/* 👉 STEP 4 - Build Routes, and a Route for each of the components imported at the top */}
-      {/* Note that the components will need some props in order to work */}
-      {/* Note that the path that renders Item has a URL parameter */}
-      {/* Note that the path that renders Item must support nested routes */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='items-list' element={<ItemsList items={stock} />} />
