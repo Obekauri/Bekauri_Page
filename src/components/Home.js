@@ -5,7 +5,7 @@ const projectsData = [
   { title: "Image Filter in C", category: "C/C++" },
   { title: "Netflix Clone APP", category: "React" },
   { title: "Learner's App", category: "Python" },
-  { title: "Human Rights First: Asylum Report Generator", category: "Javascript / React / API" },
+  { title: "Human Rights First: Asylum Report Generator", category: "React" },
 ];
 
 const categories = ["All", "React", "C/C++", "Python"];
@@ -57,8 +57,11 @@ function Home() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {filteredProjects.map((project, idx) => (
               <div key={idx} className="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-                <h3 className="text-xl font-semibold">{project.title}</h3>
-                <p className="text-sm text-gray-500 mt-1">{project.category}</p>
+                <button onClick={() => console.log(project.title)}
+                  className="ButtonHover">
+                  <h3 className="text-xl font-semibold">{project.title}</h3>
+                  <p className="text-sm text-gray-500 mt-1">{project.category}</p>
+                </button>
               </div>
             ))}
           </div>
