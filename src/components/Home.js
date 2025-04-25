@@ -1,45 +1,62 @@
-// React Router's hook to navigate around
-import { useNavigate } from 'react-router-dom'
-import DesktopImage from '../data/images/0_l1Wxf8h2AkXqYiEf.jpg'
-import NYC2 from '../data/images/IMG_0723.jpg'
+import { useState } from "react";
 
-export default function Home() {
-  const navigate = useNavigate()
+const projectsData = [
+  { title: "Image Filter in C", category: "C/C++" },
+  { title: "React Portfolio Site", category: "React" },
+  { title: "Python Stock Analyzer", category: "Python" },
+  { title: "Real-Time Chat App", category: "React" },
+];
 
-  // 👉 STEP 5 - Build a click handler that will imperatively navigate us to /items-list
-  const routeToShop = () => {
-    console.log('Submitting...')
-    navigate('items-list')
-  }
+const categories = ["All", "React", "C/C++", "Python"];
+
+function Home() {
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const filteredProjects = activeCategory === "All"
+    ? projectsData
+    : projectsData.filter(project => project.category === activeCategory);
 
   return (
-    <div className='home-wrapper'>
-      <section className='home'>
-      <img
-        className='NYC2-image'
-        src={NYC2}
-        alt='store front'
-      />
-      <h1 
-        className='firstIntro'>
-          <span>Hi, It's Omar <h1 className='store-header'> <i className='Bfont'>Bek</i>auri! </h1></span> <br />
-          <div className='social-icons'>
-            <a href='https://www.linkedin.com/in/omar-bekauri/' target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-linkedin'></i></a>
-            <a href='https://github.com/Obekauri' target="_blank" rel="noopener noreferrer"><i className='fa-brands fa-github'></i></a>
+      <div className="p-6 max-w-5xl mx-auto">
+        {/* Hero Section */}
+        <section className="text-center mb-12">
+          <h1 className="text-4xl font-bold mb-4">Hi, I'm [Your Name]</h1>
+          <p className="text-lg text-gray-600">
+            Full-Stack Developer | Passionate about clean code, performance, and solving real-world problems
+          </p>
+        </section>
+  
+        {/* Project Filter Section */}
+        <section>
+          <h2 className="text-2xl font-bold mb-4">My Projects</h2>
+  
+          <div className="flex gap-4 mb-6">
+            {categories.map(category => (
+              <button
+                key={category}
+                onClick={() => setActiveCategory(category)}
+                className={`px-4 py-2 rounded-full border transition ${
+                  activeCategory === category
+                    ? "bg-blue-600 text-white"
+                    : "bg-white text-blue-600 border-blue-600"
+                }`}
+              >
+                {category}
+              </button>
+            ))}
           </div>
-      </h1>
+  
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {filteredProjects.map((project, idx) => (
+              <div key={idx} className="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                <h3 className="text-xl font-semibold">{project.title}</h3>
+                <p className="text-sm text-gray-500 mt-1">{project.category}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
+    );
+  }
 
-      </section>
-
-      <img
-        className='home-image'
-        src={DesktopImage}
-        alt='store front'
-      />
-      <h1 
-        className='secondIntro'>
-          Some Text here
-      </h1>
-    </div>
-  )
-}
+  export default Home;
