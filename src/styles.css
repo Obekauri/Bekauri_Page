@@ -81,8 +81,7 @@ nav{
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  color: #1e293b;
+  color: grey;
 }
 
 /* Container */
@@ -106,6 +105,7 @@ body {
 }
 .font-bold {
   font-weight: 700;
+  color: red;
 }
 .mb-4 {
   margin-bottom: 1rem;
@@ -115,8 +115,9 @@ body {
   margin-bottom: 7rem;
 }
 .text-lg {
-  font-size: 1.125rem;
-  color: #f0f0f0;
+  font-size: 1.6rem;
+  color: grey;
+  font-family: ;
 }
 .text-gray-600 {
   color: #4b5563;
@@ -153,7 +154,7 @@ button:hover {
 }
 
 button.active {
-  background-color: #2563eb;
+  background-color: #f71212;
   color: white;
 }
 
@@ -176,13 +177,14 @@ button.active {
   padding: 1rem;
 }
 .border {
-  border: 1px solid;
+  border: 0.5px solid;
+  color: rgb(48, 38, 38);
 }
 .rounded-lg {
   border-radius: 0.75rem;
 }
 .shadow-sm {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 7px 10px rgba(255, 255, 255, 0.1);
 }
 .hover\\:shadow-md:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -207,4 +209,14 @@ button.active {
 }
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+/* Image */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15rem;
+  margin-bottom: 4rem;
 }

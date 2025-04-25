@@ -1,10 +1,11 @@
 import { useState } from "react";
+import firstImg from "../data/images/0_l1Wxf8h2AkXqYiEf.jpg"
 
 const projectsData = [
   { title: "Image Filter in C", category: "C/C++" },
   { title: "React Portfolio Site", category: "React" },
-  { title: "Python Stock Analyzer", category: "Python" },
-  { title: "Real-Time Chat App", category: "React" },
+  { title: "Learner's App", category: "Python / Flask / SQLite" },
+  { title: "Human Rights First: Asylum Report Generator", category: "Javascript / React / API" },
 ];
 
 const categories = ["All", "React", "C/C++", "Python"];
@@ -24,13 +25,14 @@ function Home() {
           <p className="text-lg">
             Full-Stack Developer <br />
             <br />
-            And you are looking not just Porfolio project, but React Application
+            You're not just looking at a portfolio, you're exploring a full React application
             <br />
-            In this project you will be able to see some projects 
-            That I worked with different Programing languages
+            In this web app, you can browse through several projects I've built using different programming languages
 
           </p>
         </section>
+
+        <img src={firstImg} alt="Project preview" />
   
         {/* Project Filter Section */}
         <section>
