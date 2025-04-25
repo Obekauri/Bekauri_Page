@@ -3,7 +3,7 @@ import firstImg from "../data/images/0_l1Wxf8h2AkXqYiEf.jpg"
 
 const projectsData = [
   { title: "Image Filter in C", category: "C/C++" },
-  { title: "React Portfolio Site", category: "React" },
+  { title: "Netflix Clone APP", category: "Javascript / React / CSS" },
   { title: "Learner's App", category: "Python / Flask / SQLite" },
   { title: "Human Rights First: Asylum Report Generator", category: "Javascript / React / API" },
 ];
