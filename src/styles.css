@@ -135,6 +135,10 @@ body {
 .gap-4 {
   gap: 1rem;
 }
+
+.gap-6:hover{
+  background-color: red;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -220,3 +224,9 @@ img {
   border-radius: 15rem;
   margin-bottom: 4rem;
 }
+
+.px-4 {
+  color: white;
+  border: #4b5563;
+}
+
