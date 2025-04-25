@@ -2,10 +2,10 @@ import { useState } from "react";
 import firstImg from "../data/images/0_l1Wxf8h2AkXqYiEf.jpg"
 
 const projectsData = [
-  { title: "Image Filter in C", category: "C/C++" },
-  { title: "Netflix Clone APP", category: "React" },
-  { title: "Learner's App", category: "Python" },
-  { title: "Human Rights First: Asylum Report Generator", category: "React" },
+  { title: "Image Filter in C", category: "C/C++", Link:"" },
+  { title: "Netflix Clone APP", category: "React", Link:"" },
+  { title: "Learner's App", category: "Python", Link:"" },
+  { title: "Human Rights First: Asylum Report Generator", category: "React", Link:"https://asylum-rg-fe.vercel.app/" },
 ];
 
 const categories = ["All", "React", "C/C++", "Python"];
@@ -16,6 +16,10 @@ function Home() {
   const filteredProjects = activeCategory === "All"
     ? projectsData
     : projectsData.filter(project => project.category === activeCategory);
+
+  function Projects(link){
+    window.open(link, "_blank")
+  }
 
   return (
       <div className="p-6 max-w-5xl mx-auto">
@@ -57,7 +61,7 @@ function Home() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {filteredProjects.map((project, idx) => (
               <div key={idx} className="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-                <button onClick={() => console.log(project.title)}
+                <button onClick={() => Projects(project.Link)}
                   className="ButtonHover">
                   <h3 className="text-xl font-semibold">{project.title}</h3>
                   <p className="text-sm text-gray-500 mt-1">{project.category}</p>
