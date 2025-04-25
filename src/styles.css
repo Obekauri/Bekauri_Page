@@ -116,6 +116,7 @@ body {
 }
 .text-lg {
   font-size: 1.125rem;
+  color: #f0f0f0;
 }
 .text-gray-600 {
   color: #4b5563;

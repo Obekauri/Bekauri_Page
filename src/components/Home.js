@@ -21,7 +21,7 @@ function Home() {
         {/* Hero Section */}
         <section className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Hi, I'm Omar Bekauri</h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg">
             Full-Stack Developer <br />
             <br />
             And you are looking not just Porfolio project, but React Application
