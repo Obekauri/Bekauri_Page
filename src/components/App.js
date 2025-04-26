@@ -37,6 +37,20 @@ export default function App(props) {
         <Route path='items-list' element={<ItemsList items={stock} />} />
         <Route path={'items-list/:itemID/*'} element={<Item items={stock} />} />
       </Routes>
+      <footer>
+        <p>© {new Date().getFullYear()} Omar Bekauri. All rights reserved.</p>
+        <div>
+          <a href="https://github.com/[your-github-username]" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/[your-linkedin-username]" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          <a href="mailto:[your-email@example.com]">
+            Email
+          </a>
+        </div>
+      </footer>
     </div>
   )
 }
