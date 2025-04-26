@@ -2,9 +2,9 @@ import { useState } from "react";
 import firstImg from "../data/images/0_l1Wxf8h2AkXqYiEf.jpg"
 
 const projectsData = [
-  { title: "Image Filter in C", category: "C/C++", Link:"" },
+  { title: "Image Filter in C", category: "C/C++", Link:"https://github.com/Obekauri/ImageFilter.c/blob/main/ImageFilter.c" },
   { title: "Netflix Clone APP", category: "React", Link:"" },
-  { title: "Learner's App", category: "Python", Link:"" },
+  { title: "Learner's App", category: "Python", Link:"https://github.com/me50/Obekauri" },
   { title: "Human Rights First: Asylum Report Generator", category: "React", Link:"https://asylum-rg-fe.vercel.app/" },
 ];
 

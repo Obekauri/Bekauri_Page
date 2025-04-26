@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-// 👉 STEP 2 - React Router imports (Routes, Route and Link)
 import { Routes, Route, Link } from 'react-router-dom'
 // Components used for the different routes
 import Home from './Home'
