@@ -40,13 +40,13 @@ export default function App(props) {
       </Routes>
       <footer>
       <div className='footer contact info'>
-          <a href="https://github.com/[your-github-username]" target="_blank" rel="noopener noreferrer">
+          <a href="https://https://github.com/Obekauri.com/" target="_blank" rel="noopener noreferrer">
             <FaGithub size={24} />
           </a>
-          <a href="https://linkedin.com/in/[your-linkedin-username]" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/omar-bekauri/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={24} />
           </a>
-          <a href="mailto:[your-email@example.com]">
+          <a href="mailto:omarbekauri13@gmail.com">
           <FaEnvelope size={24} />
           </a>
         </div>
