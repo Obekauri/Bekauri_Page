@@ -247,3 +247,17 @@ footer {
   font-size: 0.9rem;
 }
 
+.footer {
+  margin-top: 0.1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+}
+

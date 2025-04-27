@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 // Components used for the different routes
 import Home from './Home'
 import ItemsList from './ItemsList'
@@ -38,18 +39,18 @@ export default function App(props) {
         <Route path={'items-list/:itemID/*'} element={<Item items={stock} />} />
       </Routes>
       <footer>
-        <p>© {new Date().getFullYear()} Omar Bekauri. All rights reserved.</p>
-        <div>
+      <div className='footer contact info'>
           <a href="https://github.com/[your-github-username]" target="_blank" rel="noopener noreferrer">
-            GitHub
+            <FaGithub size={24} />
           </a>
           <a href="https://linkedin.com/in/[your-linkedin-username]" target="_blank" rel="noopener noreferrer">
-            LinkedIn
+            <FaLinkedin size={24} />
           </a>
           <a href="mailto:[your-email@example.com]">
-            Email
+          <FaEnvelope size={24} />
           </a>
         </div>
+        <p>© {new Date().getFullYear()} Omar Bekauri. All rights reserved.</p>
       </footer>
     </div>
   )
