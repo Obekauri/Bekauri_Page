@@ -19,7 +19,7 @@ function Home(){
 
 function Inventory(){
     let projectManagment = 0
-    const newVariable = 1
+    let newVariable = 1
     let newInput = ""
 
     for(let i = 0; i < newVariable; i++){
