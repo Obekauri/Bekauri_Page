@@ -41,7 +41,7 @@ function Inventory(){
                 console.log("Increase by 100")
             }else if(projectManagment > 100){
                 newVariable++
-            }else if()
+            }else if(projectManagment > 200)
         }
     }
 }
