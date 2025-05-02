@@ -43,6 +43,7 @@ function Inventory(){
                 newVariable++
                 projectManagment++
             }else if(projectManagment > 200)
+                newVariable++
         }
     }
 }
