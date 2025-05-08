@@ -49,3 +49,5 @@ function Inventory(){
         }
     }
 }
+
+function newFunction()
