@@ -50,4 +50,6 @@ function Inventory(){
     }
 }
 
-function newFunction()
+function newFunction() {
+    
+}
