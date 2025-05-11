@@ -8,7 +8,7 @@ const projectsData = [
   { title: "Human Rights First: Asylum Report Generator", category: "React", Link:"https://asylum-rg-fe.vercel.app/" },
 ];
 
-const categories = ["All", "", "C/C++", "Python"];
+const categories = ["All", "React", "C/C++", "Python"];
 
 function Home() {
   const [activeCategory, setActiveCategory] = useState("All");
