@@ -10,7 +10,7 @@ import Item from './Items'
 import data from '../data'
 
 export default function App(props) {
-  const [stock, setStock] = useState([]
+  const [stock, setStock] = useState([])
 
   useEffect(() => {
     function fetchStock() {
