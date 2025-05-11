@@ -40,7 +40,7 @@ function Home() {
   
         {/* Project Filter Section */}
         <section>
-          <h2 className="text-2xl font-bold mb-4">My Projects</h2>
+          <h2 className="text-2xl font-bold mb-4">Projects</h2>
   
           <div className="flex gap-4 mb-6">
             {categories.map(category => (
