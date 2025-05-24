@@ -18,7 +18,7 @@ function Home() {
     : projectsData.filter(project => project.category === activeCategory);
 
   function Projects(link){
-    window.open(link, "")
+    window.open(link, "_blank")
   }
 
   return (
