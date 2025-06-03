@@ -31,7 +31,7 @@ function Home() {
             <br />
             You're not just looking at a portfolio, you're exploring a full React application
             <br />
-            In this web app,  can browse through several projects I've built using different programming languages
+            In this web app, you can browse through several projects I've built using different programming languages
 
           </p>
         </section>
