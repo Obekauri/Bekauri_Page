@@ -38,7 +38,7 @@ function Home() {
 
         <img src={firstImg} alt="Project preview" />
   
-        {/* Project Filter Section */}
+        {/* Project  Section */}
         <section>
           <h2 className="text-2xl font-bold mb-4">Projects</h2>
   
