@@ -151,7 +151,7 @@ body {
 button {
   cursor: pointer;
   font-weight: 500;
-  border-radius: 1000px;
+  border-radius: 9999px;
   padding: 0.5rem 1rem;
   border: 2px solid transparent;
   background: transparent;
