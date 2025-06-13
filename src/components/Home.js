@@ -60,7 +60,7 @@ function Home() {
   
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {filteredProjects.map((project, idx) => (
-              <div key={idx} className="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+              <div key={idx} className="p-4 border rounded-lg -sm hover:shadow-md transition">
                 <button onClick={() => Projects(project.Link)}
                   className="ButtonHover">
                   <h3 className="text-xl font-semibold">{project.title}</h3>
