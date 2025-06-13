@@ -64,7 +64,7 @@ function Home() {
                 <button onClick={() => Projects(project.Link)}
                   className="ButtonHover">
                   <h3 className="text-xl font-semibold">{project.title}</h3>
-                  <p className="text-sm text--500 mt-1">{project.category}</p>
+                  <p className="text-sm text-gray-500 mt-1">{project.category}</p>
                 </button>
               </div>
             ))}
