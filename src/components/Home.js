@@ -42,7 +42,7 @@ function Home() {
         <section>
           <h2 className="text-2xl -bold mb-4">Projects</h2>
   
-          <div className=" gap-4 mb-6">
+          <div className="flex gap-4 mb-6">
             {categories.map(category => (
               <button
                 key={category}
