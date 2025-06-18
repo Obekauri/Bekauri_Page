@@ -36,7 +36,7 @@ function Home() {
           </p>
         </section>
 
-        <img src={firstImg} alt="Project " />
+        <img src={firstImg} alt="Project preview" />
   
         {/* Project Filter Section */}
         <section>
