@@ -154,7 +154,7 @@ button {
   border-radius: 9999px;
   padding: 0.5rem 1rem;
   border: 2px solid transparent;
-  background: scroll;
+  background: transparent;
   color: white;
   transition: all 0.3s;
 }
