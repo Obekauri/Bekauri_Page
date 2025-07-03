@@ -63,7 +63,7 @@ function Home() {
               <div key={idx} className="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
                 <button onClick={() => Projects(project.Link)}
                   className="ButtonHover">
-                  <h3 className="text-xl font-semibold">{project.title}</h3>
+                  <h3 className="-xl font-semibold">{project.title}</h3>
                   <p className="text-sm text-gray-500 mt-1">{project.category}</p>
                 </button>
               </div>
