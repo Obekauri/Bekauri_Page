@@ -22,7 +22,7 @@ function Home() {
   }
 
   return (
-      <div className="p-6 max-w-5xl mx-auto">
+      <div className="p-6 max-w-5xl mx-">
         {/* Hero Section */}
         <section className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Hi, I'm Omar Bekauri</h1>
