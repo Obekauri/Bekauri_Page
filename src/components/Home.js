@@ -26,7 +26,7 @@ function Home() {
         {/* Hero Section */}
         <section className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Hi, I'm Omar Bekauri</h1>
-          <p className="text-lp">
+          <p className="text-lg">
             Full-Stack Developer <br />
             <br />
             You're not just looking at a portfolio, you're exploring a full React application
