@@ -49,7 +49,7 @@ function Home() {
                 onClick={() => setActiveCategory(category)}
                 className={`px-4 py-2 rounded-full border transition ${
                   activeCategory === category
-                    ? "bg--600 text-white"
+                    ? "bg-blue-600 text-white"
                     : "bg-white text-blue-600 border-blue-600"
                 }`}
               >
