@@ -28,7 +28,7 @@ export default function App(props) {
         <div className='navigate'>
           <Link className='nav-Link' to='/'>Home</Link>
           <Link className='nav-Link' to='items-list'>About</Link>
-          <Link className='nav-Link' to='contac'>Contact</Link>
+          <Link className='nav-Link' to='contact'>Contact</Link>
         </div>
 
       </nav>
