@@ -46,7 +46,7 @@ export default function App(props) {
           <a href="https://www.linkedin.com/in/omar-bekauri/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={24} />
           </a>
-          <a href="mailto:omabekauri13@gmail.com">
+          <a href="mailto:omarbekauri13@gmail.com">
           <FaEnvelope size={24} />
           </a>
         </div>
