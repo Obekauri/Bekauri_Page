@@ -33,7 +33,7 @@ export default function Item(props) {
         </div>
       </div>
 
-      {/* 👉 STEP 9 - Here go the Routes for `<current path>/shipping` and `<current path>/description` */}
+      {/* 👉 STEP 9 - Here go the Routes for `<current path>/shipping` and <current path>/description` */}
       {/* These Routes should render <ItemDetails />  */}
       <Routes>
         <Route path="shipping" element={<ItemDetails text={item.shipping} />} />
