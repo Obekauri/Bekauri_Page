@@ -19,7 +19,7 @@ export default function Item(props) {
   const item = items.find(item => item.id === itemID)
 
   // This guards against a crash (the data is not available instantaneously)
-  if (!items.length) return 'Getting your item...'
+  if (!items.length) return 'Getting your item..'
 
   return (
     <div className='item-wrapper'>
