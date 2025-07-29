@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-// Importing the top-level component
+// Importing the top-level componen
 import App from './components/App'
 
 // Importing the styles
