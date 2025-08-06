@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 import App from './components/App';
 
 // Importing the styles
-import './styles.css'
+import './styles.css';
 
 // 👉 STEP 1 - Import Router and wrap the app
 import { BrowserRouter } from 'react-router-dom'
