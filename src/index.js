@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 // Importing the top-level component
-import App from './components/App'
+import App from './components/App';
 
 // Importing the styles
 import './styles.css'
