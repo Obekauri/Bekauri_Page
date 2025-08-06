@@ -8,7 +8,7 @@ import App from './components/App';
 import './styles.css';
 
 // 👉 STEP 1 - Import Router and wrap the app
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
